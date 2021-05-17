@@ -8,6 +8,23 @@
   </head>
   <body>
     <h1>自作APIで遊んでみよう</h1>
+    <p>
+      <div>
+        <label for="post-title">タイトル</label>
+      </div>
+      <div>
+        <input type="text" id="post-title" size="70" />
+      </div>
+    </p>
+    <p>
+      <div>
+        <label for="post-content">内容</label>
+      </div>
+      <div>
+        <textarea cols="70" rows="5" id="post-content"></textarea>
+      </div>
+    </p>
+    <button id="post-button">送信</button>
     <!-- 投稿リスト -->
     <section id="post-list"></section>
     <script src="script.js"></script>
